@@ -78,7 +78,7 @@ btn1.addEventListener(  "click",
 
         omikujiTextImage.src = resultText[n];
         omikujiTextImage.classList.add("omikujiPaper");
-        omikujiTextImage.addEventListener("animationPaper",
+        omikujiTextImage.addEventListener("animationend",
             function(){
                 omikujiTextImage.classList.remove("omikujiPaper");
             },false
