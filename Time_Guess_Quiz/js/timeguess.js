@@ -50,7 +50,7 @@ stop.addEventListener("click",
     {
       w_sound = resultSound[2];
       soundControl("start", w_sound);
-      backgroundStop3();
+      
     }
   },false
 );
@@ -148,10 +148,4 @@ function backgroundStop1()
 function backgroundStop2()
 {
   document.body.style.background = "";
-}
-
-function backgroundStop3()
-{
-  document.body.style.background = "url(img/zenitsu.png) no-repeat";
-  document.body.style.backgroundSize = "100% 100%";
 }
