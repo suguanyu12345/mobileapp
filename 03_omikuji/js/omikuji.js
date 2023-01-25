@@ -14,8 +14,8 @@ window.addEventListener(   "DOMContentLoaded",
                     delay: 50, // 文字ごとの遅延時間
                     sync: false, // trueはアニメーションをすべての文字に同時に適用
                     shuffle: true // trueは文字を順番にではなく、ランダムに
-                }
-            });
+            }
+        });
                 // おみくじボタン(id="btn1") ボヤァと表示させる
                 $(function(){
                     ScrollReveal().reveal("#btn1", { duration: 9000 });
@@ -29,8 +29,8 @@ window.addEventListener(   "DOMContentLoaded",
                 "5000"
             );
     },false
-
 );
+
 let soundEndflag = "0"; 
 const btn1 = document.getElementById("btn1");
 const omikujiText = document.getElementById("omikujiText");
